@@ -283,23 +283,7 @@ body.contact-on .contact-section {
 	font-weight: 600;
 	letter-spacing: 1px;
 } */
-@media screen and (max-width: 500px){
-	body {
-		overflow: hidden;
-	}
-	.main-section {
-		overflow: hidden !important;
-	}
-	.contact-section a{
-		font-size: 17px;
-	}
-	.contact-section .social a{
-		margin-left: 3px;
-		margin-right: 3px;
-		font-size: 13px;
-		letter-spacing: 0;
-	}
-}
+
 
 h1{
     color: #fff;
@@ -782,4 +766,30 @@ top: 0;
 
 .card:hover .card__info-hover {
     opacity: 1;
+}
+
+/* Media Query */
+@media screen and (max-width: 500px){
+	body {
+		overflow: hidden;
+	}
+	.main-section {
+		overflow: hidden !important;
+		height: 100vh !important;
+	}
+	.tech-section,
+	.workshop-section,
+	.hackathon-section,
+	.webinar-section {
+		display: none;
+	}
+	.contact-section a{
+		font-size: 17px;
+	}
+	.contact-section .social a{
+		margin-left: 3px;
+		margin-right: 3px;
+		font-size: 13px;
+		letter-spacing: 0;
+	}
 }
