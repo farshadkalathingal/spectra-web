@@ -586,11 +586,14 @@ body.webinar-on .webinar-section {
 	transform-origin: right;
 	transition: 1s;
 }
-
+.img-wrapper h2 small {
+	font-size: 60%;
+}
 .img-wrapper:hover h2
 {
 	transform: perspective(400px) rotateY(0deg);
 }
+
 
 .img-wrapper ul
 {
