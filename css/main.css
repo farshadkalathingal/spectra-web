@@ -842,7 +842,7 @@ top: 0;
 	position:fixed;
 	width:40px;
 	height:40px;
-	bottom:30px;
+	top:30px;
 	right: 20px;
 	background-color:#012830;
 	color:#FFF;
@@ -852,6 +852,7 @@ top: 0;
 	z-index: 22;
 	-webkit-transition: all 200ms linear;
 	transition: all 200ms linear;
+	cursor: pointer;
 }
 .float:hover {
     transform: rotate(90deg);
