@@ -40,7 +40,7 @@
     </div>
     <!--About Section-->
     <div class="about-section">	
-		<div class="about-close hover-target"></div>
+		<!-- <div class="about-close hover-target"></div> -->
 		<div class="section-center">
 			<div class="container">
 				<div class="row justify-content-center">
@@ -61,7 +61,7 @@
     </div>
     <!-- Contact Section-->
     <div class="contact-section">	
-		<div class="contact-close hover-target"></div>
+		<!-- <div class="contact-close hover-target"></div> -->
 		<div class="container">
             <div class="row justify-content-center">
 				<div class="col-12 text-center">
@@ -277,7 +277,7 @@
                 <div class="col-md-6 text-center">
                     <div class="image-area">
                         <div class="img-wrapper">
-                            <img src="https://images.pexels.com/photos/1220757/pexels-photo-1220757.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="akshaya">
+                            <img src="./images/team/akshay.jpg" alt="akshaya">
                             <h2>Akshay TT <small>S8 CSE</small></h2>
                             <ul>
                                 <li><a href="#"><i class="fab fa-github"></i></a></li>
@@ -307,7 +307,7 @@
     </div>
     <!--Tech-Event Section-->
     <div class="tech-section">	
-		<div class="tech-close hover-target"></div>
+		<!-- <div class="tech-close hover-target"></div> -->
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-12 text-center">
@@ -384,7 +384,7 @@
     </div>
     <!--Hackathon Section-->
     <div class="hackathon-section">	
-		<div class="hackathon-close hover-target"></div>
+		<!-- <div class="hackathon-close hover-target"></div> -->
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-12 text-center">
@@ -461,7 +461,7 @@
     </div>
     <!--Workshop Section-->
     <div class="workshop-section">	
-		<div class="workshop-close hover-target"></div>
+		<!-- <div class="workshop-close hover-target"></div> -->
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-12 text-center">
@@ -538,7 +538,7 @@
     </div>
     <!--Webinar Section-->
     <div class="webinar-section">	
-		<div class="webinar-close hover-target"></div>
+		<!-- <div class="webinar-close hover-target"></div> -->
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-12 text-center">
@@ -613,9 +613,9 @@
             </div>
         </div>
     </div>
-    <a href="#" class="float" style="display: none;">
+    <div class="float" style="display: none;">
         <img class="my-float" src="./images/close.svg" alt="close">
-    </a>
+    </div>
     <!--Cursor to shows in round-->
     <div class='cursor' id="cursor"></div>
 	<div class='cursor2' id="cursor2"></div>
@@ -661,10 +661,10 @@
                 $("body").addClass("about-on");
                 $(".float").attr('style', 'display: block;');
             });
-            $(".about-close").on('click', function () {
-                $("body").removeClass("about-on");
-                $(".float").attr('style', 'display: none;');
-            });
+            //$(".about-close").on('click', function () {
+             //   $("body").removeClass("about-on");
+             //   $(".float").attr('style', 'display: none;');
+            //});
 
             //Contact page
 	
@@ -672,10 +672,10 @@
                 $("body").addClass("contact-on");
                 $(".float").attr('style', 'display: block;');
             });
-            $(".contact-close").on('click', function () {
-                $("body").removeClass("contact-on");
-                $(".float").attr('style', 'display: none;');
-            });
+           // $(".contact-close").on('click', function () {
+            //    $("body").removeClass("contact-on");
+            //    $(".float").attr('style', 'display: none;');
+           // });
             
             //tech portfolio page
 	
@@ -683,10 +683,10 @@
                 $("body").addClass("tech-on");
                 $(".float").attr('style', 'display: block;');
             });
-            $(".tech-close").on('click', function () {
-                $("body").removeClass("tech-on");
-                $(".float").attr('style', 'display: none;');
-            });
+           // $(".tech-close").on('click', function () {
+            //    $("body").removeClass("tech-on");
+            //    $(".float").attr('style', 'display: none;');
+            //});
 
             
             //Hackathon portfolio page
@@ -695,10 +695,10 @@
                 $("body").addClass("hackathon-on");
                 $(".float").attr('style', 'display: block;');
             });
-            $(".hackathon-close").on('click', function () {
-                $("body").removeClass("hackathon-on");
-                $(".float").attr('style', 'display: none;');
-            });
+           // $(".hackathon-close").on('click', function () {
+            //    $("body").removeClass("hackathon-on");
+            //    $(".float").attr('style', 'display: none;');
+           // });
 
             
             //Workshop portfolio page
@@ -707,20 +707,20 @@
                 $("body").addClass("workshop-on");
                 $(".float").attr('style', 'display: block;');
             });
-            $(".workshop-close").on('click', function () {
-                $("body").removeClass("workshop-on");
-                $(".float").attr('style', 'display: none;');
-            });
+            //$(".workshop-close").on('click', function () {
+           //     $("body").removeClass("workshop-on");
+            //    $(".float").attr('style', 'display: none;');
+            //});
             //Webinar portfolio page
             
             $(".webinar").on('click', function () {
                 $("body").addClass("webinar-on");
                 $(".float").attr('style', 'display: block;');
             });
-            $(".webinar-close").on('click', function () {
-                $("body").removeClass("webinar-on");
-                $(".float").attr('style', 'display: none;');
-            });
+           // $(".webinar-close").on('click', function () {
+           //     $("body").removeClass("webinar-on");
+            //    $(".float").attr('style', 'display: none;');
+            //});
 
         })(jQuery);
         
