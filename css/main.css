@@ -128,6 +128,7 @@ a:hover {
 	display: block;
 	overflow-x: hidden;
 	overflow-y: auto;
+	padding: 4rem 0px;
 	height: 100vh;
 	background-color: #012830;
 	transform: translateX(-100%);
@@ -848,7 +849,7 @@ top: 0;
 	.float {
 		right: 2% !important;
 		top: auto !important;
-		bottom: 4% !important;
+		bottom: 2% !important;
 	}
 }
 .float{
