@@ -779,6 +779,13 @@ top: 0;
 	.card {
 		margin-top: 2rem;
 	}
+	.contact-section h3,
+	.tech-section h3, 
+	.hackathon-section h3, 
+	.workshop-section h3, 
+	.webinar-section h3 {
+		font-size: 38px !important;
+	}
 	.float {
 		right: 15px !important;
 		bottom: 50px !important;
