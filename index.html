@@ -613,7 +613,9 @@
             </div>
         </div>
     </div>
-
+    <a href="#" class="float" style="display: none;">
+        <img class="my-float" src="./images/close.svg" alt="close">
+    </a>
     <!--Cursor to shows in round-->
     <div class='cursor' id="cursor"></div>
 	<div class='cursor2' id="cursor2"></div>
@@ -657,27 +659,33 @@
 	
             $(".about-text").on('click', function () {
                 $("body").addClass("about-on");
+                $(".float").attr('style', 'display: block;');
             });
             $(".about-close").on('click', function () {
                 $("body").removeClass("about-on");
+                $(".float").attr('style', 'display: none;');
             });
 
             //Contact page
 	
             $(".contact-text").on('click', function () {
                 $("body").addClass("contact-on");
+                $(".float").attr('style', 'display: block;');
             });
             $(".contact-close").on('click', function () {
                 $("body").removeClass("contact-on");
+                $(".float").attr('style', 'display: none;');
             });
             
             //tech portfolio page
 	
             $(".tech").on('click', function () {
                 $("body").addClass("tech-on");
+                $(".float").attr('style', 'display: block;');
             });
             $(".tech-close").on('click', function () {
                 $("body").removeClass("tech-on");
+                $(".float").attr('style', 'display: none;');
             });
 
             
@@ -685,9 +693,11 @@
             
             $(".hackathon").on('click', function () {
                 $("body").addClass("hackathon-on");
+                $(".float").attr('style', 'display: block;');
             });
             $(".hackathon-close").on('click', function () {
                 $("body").removeClass("hackathon-on");
+                $(".float").attr('style', 'display: none;');
             });
 
             
@@ -695,24 +705,36 @@
             
             $(".workshop").on('click', function () {
                 $("body").addClass("workshop-on");
+                $(".float").attr('style', 'display: block;');
             });
             $(".workshop-close").on('click', function () {
                 $("body").removeClass("workshop-on");
+                $(".float").attr('style', 'display: none;');
             });
             //Webinar portfolio page
             
             $(".webinar").on('click', function () {
                 $("body").addClass("webinar-on");
+                $(".float").attr('style', 'display: block;');
             });
             $(".webinar-close").on('click', function () {
                 $("body").removeClass("webinar-on");
+                $(".float").attr('style', 'display: none;');
             });
 
         })(jQuery);
         
         
     </script>
-
+    <script>
+        $(".float").click(function(e) {
+            e.preventDefault();
+            if ( $("body").hasClass("about-on") | $("body").hasClass("contact-on") | $("body").hasClass("tech-on") | $("body").hasClass("hackathon-on") | $("body").hasClass("workshop-on") | $("body").hasClass("webinar-on") ) {
+                $("body").removeClass();
+                $(".float").attr('style', 'display: none;');
+            }
+        })
+    </script>
     
 </body>
 
