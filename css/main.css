@@ -167,12 +167,18 @@ body.about-on .about-section {
 	box-shadow: 8px 8px 16px rgba(0,0,0,0.2), inset 2px 2px 4px rgba(255,255,255,.3);
 	padding: 1rem;
 }
-.about-section p span {
-    font-family: 'Dancing Script', cursive;
+.about-section small i {
+	font-size: 20px;
+	margin-left: .5rem;
+	color: rgb(255, 0, 0);
+}
+.about-section small span {
+    font-family: inherit;
 	letter-spacing: 1px;
-	color: #866BAF;
-	font-size: 25px;
+	color: rgb(145, 145, 145);
+	font-size: 15px !important;
 	font-weight: 400;
+	cursor: pointer;
 }
 /* Contact */
 .contact-text {
