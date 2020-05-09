@@ -773,5 +773,10 @@ top: 0;
 /* Media Query */
 @media screen and (max-width: 500px){
 	
-	
+	h1 {
+		font-size: 4rem;
+	}
+	.card {
+		margin-top: 2rem;
+	}
 }
