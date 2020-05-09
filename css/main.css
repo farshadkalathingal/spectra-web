@@ -658,16 +658,63 @@ body.webinar-on .webinar-section {
     -webkit-justify-content: center;
     max-width: 820px;
 }
-
+/* Images for Events */
 .card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url('https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-image: url('../images/events/caspar-camille-rubin-89xuP-XmyrA-unsplash.jpg');
 }
 
 .card--2 .card__img, .card--2 .card__img--hover {
-    background-image: url('https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-image: url('../images/events//web-text-1591060.jpg');
+}
+.card--3 .card__img, .card--3 .card__img--hover {
+    background-image: url('../images/coming.png');
+}
+.card--4 .card__img, .card--4 .card__img--hover {
+    background-image: url('../images/coming.png');
 }
 
+/* Images for Hakathons */
+.card--11 .card__img, .card--11 .card__img--hover {
+    background-image: url('../images/coming.png');
+}
+.card--12 .card__img, .card--12 .card__img--hover {
+    background-image: url('../images/coming.png');
+}
+.card--13 .card__img, .card--13 .card__img--hover {
+    background-image: url('../images/coming.png');
+}
+.card--14 .card__img, .card--14 .card__img--hover {
+    background-image: url('../images/coming.png');
+}
+/* Images for Workshop */
+.card--21 .card__img, .card--21 .card__img--hover {
+    background-image: url('../images/coming.png');
+}
+.card--22 .card__img, .card--22 .card__img--hover {
+    background-image: url('../images/coming.png');
+}
+.card--23 .card__img, .card--23 .card__img--hover {
+    background-image: url('../images/coming.png');
+}
+.card--24 .card__img, .card--24 .card__img--hover {
+    background-image: url('../images/coming.png');
+}
 
+/* Images for Webinar */
+.card--31 .card__img, .card--31 .card__img--hover {
+    background-image: url('../images/coming.png');
+}
+.card--32 .card__img, .card--32 .card__img--hover {
+    background-image: url('../images/coming.png');
+}
+.card--33 .card__img, .card--33 .card__img--hover {
+    background-image: url('../images/coming.png');
+}
+.card--34 .card__img, .card--34 .card__img--hover {
+    background-image: url('../images/coming.png');
+}
+
+/* End Here */
 
 .card__img {
   visibility: hidden;
