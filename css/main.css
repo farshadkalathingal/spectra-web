@@ -840,16 +840,17 @@ top: 0;
 		font-size: 38px !important;
 	}
 	.float {
-		right: 15px !important;
-		bottom: 50px !important;
+		right: 2% !important;
+		top: auto !important;
+		bottom: 4% !important;
 	}
 }
 .float{
 	position:fixed;
 	width:40px;
 	height:40px;
-	top:30px;
-	right: 20px;
+	top:2%;
+	right: 2%;
 	background-color:#012830;
 	color:#FFF;
 	border-radius:50px;
