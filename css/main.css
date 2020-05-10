@@ -488,7 +488,8 @@ body.gallery-on .gallery-section {
 .tech-section h3,
 .hackathon-section h3,
 .workshop-section h3,
-.webinar-section h3 {
+.webinar-section h3,
+.gallery-section h3 {
 	font-size: 44px;
 	line-height: 1.3;
 	font-weight: 700;
@@ -682,7 +683,7 @@ body.gallery-on .gallery-section {
     background-image: url('../images/events//web-text-1591060.jpg');
 }
 .card--3 .card__img, .card--3 .card__img--hover {
-    background-image: url('../images/coming.jpg');
+    background-image: url('../images/events/ksenia-makagonova-eUnBVyC9EFs-unsplash.jpg');
 }
 .card--4 .card__img, .card--4 .card__img--hover {
     background-image: url('../images/coming.jpg');
@@ -948,7 +949,7 @@ top: 0;
   #gallery .card {
 	width:100%;
 	height:auto;
-	margin: 4% auto;
+	margin: 20px auto;
 	box-shadow:-3px 5px 15px #000;
 	cursor: pointer;
 	-webkit-transition: all 0.2s;
