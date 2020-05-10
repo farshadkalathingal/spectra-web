@@ -829,12 +829,26 @@ top: 0;
 @media screen and (max-width: 500px){
 	
 	h1 {
-		font-size: 4rem;
+		font-size: 2.5rem;
+		letter-spacing: .3rem;
 	}
-	
+	.about-text {
+		font-size: 1rem;
+		letter-spacing: .3rem;
+	}
+	.contact-text {
+		font-size: 1rem;
+		letter-spacing: .3rem;
+	}
+	.main-section p {
+		font-size: 1.1rem;
+	}
 	.main-section p span{
 		margin-top: 1rem;
 		display: block;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		letter-spacing: .3rem;
 	}
 	.card {
 		margin-top: 2rem;
@@ -844,13 +858,22 @@ top: 0;
 	.hackathon-section h3, 
 	.workshop-section h3, 
 	.webinar-section h3 {
-		font-size: 38px !important;
+		font-size: 1.8rem !important;
+		font-weight: 500;
+	}
+	.contact-section h5 {
+		font-size: 1.3rem;
 	}
 	.float {
 		right: 2% !important;
 		top: auto !important;
 		bottom: 2% !important;
 	}
+	.img-wrapper h2 {
+		font-size: 1.2rem;
+	}
+	
+	
 }
 .float{
 	position:fixed;
