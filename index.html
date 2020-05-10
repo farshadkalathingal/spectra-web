@@ -12,7 +12,8 @@
     <!--Style-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <!--Font-->
+    <!--Author-->
+    <meta name="author" content="Farshad Kalathingal">
     <!--Fon-Icon-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
 </head>
@@ -37,6 +38,7 @@
                         <span class="hackathon hover-target">hackathon</span> 
                         <span class="workshop hover-target">workshop</span>
                         <span class="webinar hover-target">webinar</span>
+                        <span class="gallery hover-target">gallery</span>
                     </p>
                 </div>
             </div>
@@ -622,6 +624,50 @@
             </div>
         </div>
     </div>
+     <!--gallery Section-->
+     <div class="gallery-section">	
+		<!-- <div class="gallery-close hover-target"></div> -->
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12 text-center mb-5">
+					<h3>Spectra 2k19</h3>
+				</div>
+            </div>
+            <div class="row justify-content-center ">
+                <div class="col-12 text-center">
+                   <div id="gallery">
+                    <img src="https://i.ytimg.com/vi/TZiQK81Rjfw/maxresdefault.jpg" class="card img-responsive">
+                    <img src="http://www.fwallpaper.net/wallpapers/H/I/hilary-duff-portrait_1920x1200.jpg" class="card img-responsive">
+                    <img src="http://delbaz.persiangig.com/image/Portraits/Matt-Sayles-portrait-shot-in-Beverly-HillsNov-8-2008-kristen-stewart-2823602-1845-2560.jpg" class="card img-responsive">
+        
+                    <img src="https://picsum.photos/300" class="card img-responsive">
+                    <img src="https://picsum.photos/400" class="card img-responsive">
+                    <img src="https://picsum.photos/600" class="card img-responsive">
+                    <img src="http://hd.wallpaperswide.com/thumbs/megan_fox_portrait-t2.jpg" class="card img-responsive">
+                    <img src="https://picsum.photos/300/500" class="card img-responsive">
+                    <img src="https://picsum.photos/650" class="card img-responsive">
+                    <img src="https://picsum.photos/550" class="card img-responsive">
+                    <img src="https://picsum.photos/410" class="card img-responsive">
+                    <img src="https://picsum.photos/420" class="card img-responsive">
+                    <img src="https://picsum.photos/430" class="card img-responsive">
+                    <img src="https://picsum.photos/440" class="card img-responsive">
+                    <img src="https://picsum.photos/540" class="card img-responsive">
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+      
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-body">
+            </div>
+          </div>
+      
+        </div>
+      </div>
     <div class="float hover-target" style="display: none;">
         <img class="my-float" src="./images/close.svg" alt="close">
     </div>
@@ -634,7 +680,6 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script>
         $("body").height(window.innerHeight);
-       // console.log($("body").height())
     </script>
     <script>
         (function ($) {
@@ -733,6 +778,10 @@
            //     $("body").removeClass("webinar-on");
             //    $(".float").attr('style', 'display: none;');
             //});
+            $(".gallery").on('click', function () {
+                $("body").addClass("gallery-on");
+                $(".float").attr('style', 'display: block;');
+            });
 
         })(jQuery);
         
@@ -741,13 +790,14 @@
     <script>
         $(".float").click(function(e) {
             e.preventDefault();
-            if ( $("body").hasClass("about-on") | $("body").hasClass("contact-on") | $("body").hasClass("tech-on") | $("body").hasClass("hackathon-on") | $("body").hasClass("workshop-on") | $("body").hasClass("webinar-on") ) {
+            if ( $("body").hasClass("about-on") | $("body").hasClass("contact-on") | $("body").hasClass("tech-on") | $("body").hasClass("hackathon-on") | $("body").hasClass("workshop-on") | $("body").hasClass("webinar-on") | $("body").hasClass("gallery-on") ) {
                 $("body").removeClass();
                 $(".float").attr('style', 'display: none;');
             }
         })
     </script>
-    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

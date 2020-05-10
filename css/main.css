@@ -407,7 +407,8 @@ body.webinar-on .main-section {
 .tech-section,
 .hackathon-section,
 .workshop-section,
-.webinar-section {
+.webinar-section,
+.gallery-section {
     position: fixed;
 	top: 100%;
 	left: 0;
@@ -464,6 +465,11 @@ body.workshop-on .workshop-section {
 	transition-delay: 400ms;
 }
 body.webinar-on .webinar-section {
+	top: 0;
+	-webkit-transition-delay: 400ms;
+	transition-delay: 400ms;
+}
+body.gallery-on .gallery-section {
 	top: 0;
 	-webkit-transition-delay: 400ms;
 	transition-delay: 400ms;
@@ -899,3 +905,61 @@ top: 0;
 .my-float{
 	margin-top:5px;
 }
+
+/* gallery */
+#gallery{
+	-webkit-column-count:4;
+	-moz-column-count:4;
+	column-count:4;
+	
+	-webkit-column-gap:20px;
+	-moz-column-gap:20px;
+	column-gap:20px;
+  }
+  @media (max-width:1200px){
+	#gallery{
+	-webkit-column-count:3;
+	-moz-column-count:3;
+	column-count:3;
+	  
+	-webkit-column-gap:20px;
+	-moz-column-gap:20px;
+	column-gap:20px;
+  }
+  }
+  @media (max-width:800px){
+	#gallery{
+	-webkit-column-count:2;
+	-moz-column-count:2;
+	column-count:2;
+	  
+	-webkit-column-gap:20px;
+	-moz-column-gap:20px;
+	column-gap:20px;
+  }
+  }
+  @media (max-width:500px){
+	#gallery{
+	-webkit-column-count:1;
+	-moz-column-count:1;
+	column-count:1;
+  }  
+  }
+  #gallery .card {
+	width:100%;
+	height:auto;
+	margin: 4% auto;
+	box-shadow:-3px 5px 15px #000;
+	cursor: pointer;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+  }
+  
+  .modal-img {
+	width:100%;
+	height:auto;
+	max-height: 90vh !important;
+  }
+  .modal-body {
+	padding:0px;
+  }
