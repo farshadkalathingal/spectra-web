@@ -294,7 +294,6 @@ body.contact-on .contact-section {
 	letter-spacing: 1px;
 } */
 
-
 h1{
     color: #fff;
 	font-size: 8vw;
@@ -704,7 +703,7 @@ body.gallery-on .gallery-section {
 }
 /* Images for Workshop */
 .card--21 .card__img, .card--21 .card__img--hover {
-    background-image: url('../images/coming.jpg');
+    background-image: url('../images/workshop/web\ development.jpg');
 }
 .card--22 .card__img, .card--22 .card__img--hover {
     background-image: url('../images/coming.jpg');
@@ -718,7 +717,7 @@ body.gallery-on .gallery-section {
 
 /* Images for Webinar */
 .card--31 .card__img, .card--31 .card__img--hover {
-    background-image: url('../images/coming.jpg');
+    background-image: url('../images/webinar/placement.jpg');
 }
 .card--32 .card__img, .card--32 .card__img--hover {
     background-image: url('../images/coming.jpg');
