@@ -13,6 +13,7 @@ window.onbeforeunload = function(e) {
   if ( $("body").hasClass("about-on") | $("body").hasClass("contact-on") | $("body").hasClass("tech-on") | $("body").hasClass("hackathon-on") | $("body").hasClass("workshop-on") | $("body").hasClass("webinar-on") | $("body").hasClass("gallery-on") ) {
       
       $(".float").attr('style', 'display: none;');
-      return $("body").removeClass();
+      $("body").removeClass();
+      return window.history.forward();
   }
 }
