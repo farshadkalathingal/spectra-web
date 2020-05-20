@@ -8,12 +8,3 @@ $(document).ready(function(){
   });
   });//EOF Document.ready
 
-window.onbeforeunload = function(e) {
-  e.preventDefault();
-  if ( $("body").hasClass("about-on") | $("body").hasClass("contact-on") | $("body").hasClass("tech-on") | $("body").hasClass("hackathon-on") | $("body").hasClass("workshop-on") | $("body").hasClass("webinar-on") | $("body").hasClass("gallery-on") ) {
-      
-      $(".float").attr('style', 'display: none;');
-      $("body").removeClass();
-      return window.history.forward();
-  }
-}
