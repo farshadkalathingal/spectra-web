@@ -7,3 +7,7 @@ $(document).ready(function(){
     $("#myModal").modal();
   });
   });//EOF Document.ready
+
+window.onbeforeunload = function() {
+  return "You will be lost";
+}
